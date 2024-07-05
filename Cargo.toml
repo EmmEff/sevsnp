@@ -1,0 +1,13 @@
+[package]
+name = "sevsnp"
+version = "0.1.0"
+authors = ["Mike Frisch <mikef17@gmail.com>"]
+description = "Example project using prost-build"
+edition = "2018"
+
+[dependencies]
+bytes = "0.4"
+prost = "0.5"
+
+[build-dependencies]
+prost-build = "0.5"
